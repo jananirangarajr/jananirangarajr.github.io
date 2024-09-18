@@ -1,0 +1,77 @@
+.intro {
+  font-family: 'Reem Kufi', sans-serif;
+  font-size: 5.75em;
+  font-weight: 600;
+}
+.tagline {
+  font-size: 2.5rem;
+  font-weight: 100;
+  justify-content: center;
+}
+.icons-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
+}
+
+.icons-social a {
+  color: black;                /* Sets the entire link (and icon) to black */
+  text-decoration: none;       /* Removes underline from links */
+}
+
+.icons-social i {
+  font-size:40px;             /* Adjust icon size */
+}
+.intro-msg {
+  font-family: Sacramento, cursive;
+  font-size: 50px;
+}
+
+.heading{
+  padding: 20px;
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.intro-body{
+  font-family: "Aleo", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+}
+.h3{
+  font-family: "Aleo", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 31px;
+  font-style: normal;
+}
+.h5{
+  font-family: "Aleo", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 21px;
+  font-style: italic;
+}
+.git-link {
+  display: flex;
+  justify-content: end;
+  gap: 15px;
+  padding: 20px;
+}
+.git-link a{
+  color: black;                /* Sets the entire link (and icon) to black */
+  text-decoration: none;
+}
+.git-link i {
+  font-size:25px;             /* Adjust icon size */
+}
+.card-body{
+  text-align: justify;
+}
+

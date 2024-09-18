@@ -1,0 +1,81 @@
+
+$padding: 20px;
+$font-fam: "Aleo", serif;
+
+.centered-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #ecf0f1;
+  text-align: center;
+}
+.experience-title{
+  font-family: $font-fam;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 21px;
+  font-style: italic;
+}
+.experience{
+  font-family: "Aleo", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 19px;
+  font-style: normal;
+}
+.achivement{
+  font-family: "Aleo", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 19px;
+  font-style: normal;
+  text-align: center;
+}
+.svg-divider {
+  display: block;
+  margin: 10px auto;
+  width: 20%; /* Adjust width for a smaller divider */
+  height: auto;
+}
+.text-border {
+  display: inline-block; /* Ensures the border only wraps around the text */
+  border-bottom: 4px solid rgba(108, 117, 125, 0.25); /* Custom border size, color, and opacity */
+  padding-bottom: 4px; /* Optional: Adds space between the text and the bottom border */
+}
+
+.navbar-container {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 15px 30px;
+}
+
+/* Nav link styles */
+.nav-link {
+  font-size: 18px !important;
+  color: #333 !important; /* Force custom text color */
+  font-weight: normal !important;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-family: "Aleo", serif;
+}
+
+/* Active link styles (selected background and text color) */
+.nav-pills .nav-link.active {
+  background-color: darkcyan !important; /* Force custom background color */
+  color: #fff !important; /* Force custom text color when selected */
+  border-radius: 50px;
+}
+
+/* Hover state for nav links */
+.nav-link:hover {
+  color: #ff7f50 !important; /* Force custom hover text color */
+  background-color: #f0f4fd !important; /* Force custom hover background color */
+  border-radius: 50px;
+}
