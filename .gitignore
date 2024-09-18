@@ -1,0 +1,81 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Optional npm cache directory
+.npm
+
+# Optional Yarn cache directory
+.yarn
+.yarn/*
+!.yarn/cache
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Jest test coverage
+coverage/
+*.lcov
+
+# Mac system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Build directories
+build/
+dist/
+
+# Temporary files
+*.swp
+*.temp
+*.tmp
+
+# ESLint cache
+.eslintcache
+
+# Parcel cache (if using Parcel bundler)
+.cache/
+
+# Storybook files
+.storybook/
+
+# SASS cache
+.sass-cache/
+
+# Prettier files
+.prettierignore
+
+# Webpack files
+webpack-stats.json
+
+# TypeScript build directory
+tsbuildinfo.json
