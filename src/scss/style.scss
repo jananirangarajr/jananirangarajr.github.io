@@ -215,3 +215,41 @@ $font-fam: "Aleo", serif;
   padding-bottom: 20px;
   bottom: 0; /* Ensure it's at the very bottom */
 }
+.footer{
+  background-color: darkcyan;
+}
+.footer-name{
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 160px;
+  justify-content: center;
+  align-content: center;
+}
+.footer-mainmsg {
+  font-size: 22px;
+  font-family: "Aleo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.footer.msg{
+  text-align: justify;
+  font-size: 20px;
+  font-family: "Aleo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.icons-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.icons-contact a {
+  color: black;                /* Sets the entire link (and icon) to black */
+  text-decoration: none;       /* Removes underline from links */
+}
+
+.icons-contact i {
+  font-size:40px;             /* Adjust icon size */
+}

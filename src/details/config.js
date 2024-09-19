@@ -266,7 +266,13 @@ const mainBody = {
                 "https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white"
             ]
         }
-    ]        
+    ],
+    "footer":{
+        "name": "Janani Rangaraj",
+        "mainMsg": "Let's Work Together",
+        "msg": "Feel free to reach out to me for collaborations or job opportunities.",
+        "copyrights": "2024 Janani Rangaraj. All rights reserved."
+    }
 };
 
 export {mainBody};

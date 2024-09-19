@@ -10,6 +10,7 @@ import Project from "./components/Projects";
 import Experience from "./components/Experience";
 import Skills from "./components/Skills";
 import Achievements from "./components/Achievements";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -46,6 +47,9 @@ function App() {
             <section id="achievements" style={{ minHeight: "auto" }}>
                 <Achievements />
             </section>
+        </Container>
+        <Container fluid className="footer">
+            <Contact/>
         </Container>
     </>
   );

@@ -26,7 +26,7 @@ function Main() {
 
     return (
             <Container fluid className="navbar-container start-0">
-                <Nav className="justify-content-end px-4" variant="pills" activeKey={activeSection}>
+                <Nav className="justify-content-end px-3" variant="pills" activeKey={activeSection}>
                 <Nav.Item>
                     <Nav.Link href="#home" eventKey="home">{mainBody.home}</Nav.Link>
                 </Nav.Item>
