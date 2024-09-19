@@ -22,26 +22,30 @@ function App() {
                 <Intro />
             </section>
         </Container>
-        <Container>
-            <Row>
-                <Col>
-                    <section id="about" style={{ minHeight: "auto" }}>
-                        <About />
-                    </section>
-                    <section id="experience" style={{ minHeight: "auto" }}>
-                        <Experience />
-                    </section>
-                    <section id="projects" style={{ minHeight: "auto" }}>
-                        <Project />
-                    </section>
-                    <section id="skills" style={{ minHeight: "auto"}}>
-                        <Skills />
-                    </section>
-                    <section id="achievements" style={{ minHeight: "auto" }}>
-                        <Achievements />
-                    </section>
-                </Col>
-            </Row>
+        <Container fluid className="bg-secondary bg-gradient bg-opacity-10">
+            <section id="about" style={{ minHeight: "auto" }}>
+                <About />
+            </section>
+        </Container>
+        <Container fluid className="bg-light-subtle">
+            <section id="experience" style={{minHeight: "auto"}}>
+                <Experience />
+            </section>
+        </Container>
+        <Container fluid className="bg-body-tertiary">
+            <section id="projects" style={{ minHeight: "auto" }}>
+                <Project />
+            </section>
+        </Container>
+        <Container fluid className="bg-light-subtle">
+            <section id="skills" style={{ minHeight: "auto"}}>
+                <Skills />
+            </section>
+        </Container>
+        <Container fluid className="bg-body-tertiary">
+            <section id="achievements" style={{ minHeight: "auto" }}>
+                <Achievements />
+            </section>
         </Container>
     </>
   );

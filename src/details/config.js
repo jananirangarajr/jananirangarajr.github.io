@@ -14,12 +14,14 @@ const mainBody = {
         {
             "university" :"University Of Alabama in Huntsville",
             "degree" : "Master of science in Computer Science",
-            "year" : "Jan 2023 - May 2024"
+            "year" : "Jan 2023 - May 2024",
+            "location": "Huntsville, AL, USA"
         },
         {
             "university" :"Sri Ramakrishna Engineering College",
             "degree" : "Bachelor of Science in Computer Engineering",
-            "year" : "Jun 2013 - May 2017"
+            "year" : "Jun 2013 - May 2017",
+            "location": "Coimbatore, TN, India"
         }
     ],
     "icons": [
@@ -177,31 +179,94 @@ const mainBody = {
         "Improved the performance of Zoho’s ITSM product AssetExplorer, boosting asset management functionality by 20%. Additionally, integrated advanced analytics, leading to an increase in product efficiency and generating $1 million in additional revenue.",
         "Demonstrated expertise in securing web applications by identifying and resolving over 70 XSS and CSRF vulnerabilities, leading to a significant reduction in security risks across Zoho's products."
     ],
-    "skill-category":[
+    "skillCategory":[
         {
-            "title": "Language",
-            "links":[
+            "title": "Languages",
+            "links": [
                 "https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white",
                 "https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white",
                 "https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white",
                 "https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54",
-                "https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E",
+                "https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"
             ]
         },
         {
-            "title": "Web Development",
-            "links":[
+            "title": "Frontend",
+            "links": [
                 "https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white",
                 "https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white",
                 "https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white",
                 "https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white",
                 "https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB",
+                "https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white"
             ]
         },
         {
-
+            "title": "Backend Technologies",
+            "links": [
+                "https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white",
+                "https://img.shields.io/badge/GraphQl-E10098?style=for-the-badge&logo=graphql&logoColor=white",
+                "https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi",
+                "https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white",
+                "https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white"
+            ]
+        },
+        {
+            "title": "Cloud Technologies",
+            "links": [
+                "https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white",
+                "https://img.shields.io/badge/splunk-%23000000.svg?style=for-the-badge&logo=splunk&logoColor=white",
+                "https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white"
+            ]
+        },
+        {
+            "title": "DevOps Tools",
+            "links": [
+                "https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white",
+                "https://img.shields.io/badge/Kubernetes-3069DE?style=for-the-badge&logo=kubernetes&logoColor=white",
+                "https://img.shields.io/badge/SonarQube-black?style=for-the-badge&logo=sonarqube&logoColor=4E9BCD",
+                "https://img.shields.io/badge/jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white",
+                "https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white",
+                "https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=Apache%20Maven&logoColor=white"
+            ]
+        },
+        {
+            "title": "Database",
+            "links": [
+                "https://img.shields.io/badge/Amazon%20DynamoDB-4053D6?style=for-the-badge&logo=Amazon%20DynamoDB&logoColor=white",
+                "https://img.shields.io/badge/cassandra-%231287B1.svg?style=for-the-badge&logo=apache-cassandra&logoColor=white",
+                "https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white",
+                "https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white",
+                "https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white",
+                "https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white",
+                "https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase"
+            ]
+        },
+        {
+            "title": "Package Managers & Build Tools",
+            "links": [
+                "https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white",
+                "https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white"
+            ]
+        },
+        {
+            "title": "Operating System",
+            "links": [
+                "https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black",
+                "https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0",
+                "https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white",
+            ]
+        },
+        {
+            "title": "Collaboration & API Tools",
+            "links": [
+                "https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white",
+                "https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white",
+                "https://img.shields.io/badge/confluence-%23172BF4.svg?style=for-the-badge&logo=confluence&logoColor=white",
+                "https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white"
+            ]
         }
-    ]
+    ]        
 };
 
 export {mainBody};

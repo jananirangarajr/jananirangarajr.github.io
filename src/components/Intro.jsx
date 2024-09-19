@@ -8,7 +8,7 @@ import {mainBody} from "../details/config";
 
 const Intro = () => {
         return (
-                <Container fluid id="Intro" className="centered-container bg-gradient bg-opacity-50 text-dark">
+                <Container fluid id="Intro" className="centered-container bg-gradient bg-opacity-75 text-dark start-0">
                     <Row>
                         <h3 className="intro-msg">{mainBody.introMsg}</h3>
                     </Row>
@@ -41,19 +41,21 @@ const Intro = () => {
                                 </div>
                             </Typist>
                             </Row>
-                            <Row className="align-content-center bottom-0 p-5">
+                            <Row className="button-container justify-content-center p-5">
                                 <a
-                                    className="btn btn-outline-light bg-black text-light"
+                                    className="custom-btn"
                                     href="#about"
                                     role="button"
                                     aria-label="Learn more about me"
                                 >
-                                    More about me
+                                    More About Me
                                     <Row>
                                     <i className="bi bi-arrow-down-circle"></i>
                                     </Row>
                                 </a>
                             </Row>
+
+
                 </Container>
         )
     }

@@ -12,8 +12,8 @@ const About = () => {
         <>
         <Container className="p-5">
             <Row>
-                <h1 className="heading p-0">About Me</h1>
-                <Line />
+                <h1 className="heading p-0 border-bottom border-5 w-auto">About Me</h1>
+                
             </Row>
             <Row>
                 <Col>
@@ -22,7 +22,7 @@ const About = () => {
                         {mainBody.about}
                         <br/>
                         <div className="p-5">
-                            <Button type="button" href={mainBody.resumeLink} className="btn btn-dark">Resume</Button>
+                            <Button type="button" href={mainBody.resumeLink} className="btn button-bg">Resume</Button>
                         </div>
                     </p>
                 </Col>

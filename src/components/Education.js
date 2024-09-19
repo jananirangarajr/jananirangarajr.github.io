@@ -10,18 +10,20 @@ const Education = () => {
     return(
         <Container className="p-3">
             <Row>
-                <h1 className="heading p-0">Education</h1>
-                <Line/>
+                <h1 className="heading p-0 border-bottom border-5 w-auto">Education</h1>
             </Row>
             {mainBody.education.map(education => (
-                <Row className="align-Center px-5 py-3">
+                <Row className="justify-content-center text-center px-5 py-3">
                     <Row className="py-1">
-                        <h3 className="h3">{education.degree} </h3>
-                    </Row>
-                    <Row>
                         <Col>
-                            <h5 className="h5 d-inline w-auto mx-3">{education.university}</h5>
-                            <h5 className="h5 d-inline">  - {education.year}</h5>
+                            <h3 className="h3 d-inline w-auto">{education.degree} </h3>
+                            <h5 className="h5 d-inline text-info-emphasis"> - {education.year}</h5>
+                        </Col>
+                    </Row>
+                    <Row className="py-1">
+                        <Col>
+                            <h4 className="h4 d-inline w-auto">{education.university}</h4>
+                            <h5 className="h5 d-inline text-info-emphasis"> - {education.location}</h5>
                         </Col>
                     </Row>
                 </Row>

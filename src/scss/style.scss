@@ -2,6 +2,95 @@
 $padding: 20px;
 $font-fam: "Aleo", serif;
 
+.intro {
+  font-family: 'Reem Kufi', sans-serif;
+  font-size: 5.75em;
+  font-weight: 600;
+}
+.tagline {
+  font-size: 2.5rem;
+  font-weight: 100;
+  justify-content: center;
+}
+.icons-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
+}
+
+.icons-social a {
+  color: black;                /* Sets the entire link (and icon) to black */
+  text-decoration: none;       /* Removes underline from links */
+}
+
+.icons-social i {
+  font-size:40px;             /* Adjust icon size */
+}
+.intro-msg {
+  font-family: Sacramento, cursive;
+  font-size: 50px;
+}
+
+.heading {
+  padding: 20px;
+  text-align: center; /* Center text inside heading */
+  font-family: "Roboto Slab", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-optical-sizing: auto;
+  border-bottom: 3px solid darkcyan !important;
+  display: inline-block !important;
+  margin: 0 auto; /* Center the inline-block element */
+}
+.intro-body{
+  font-family: $font-fam;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+}
+.h3{
+  font-family: $font-fam;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 33px;
+  font-style: normal;
+}
+.h4{
+  font-family: $font-fam;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 28px;
+  font-style: normal;
+}
+.h5{
+  font-family: $font-fam;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-size: 16px;
+  font-style: italic;
+}
+.git-link {
+  display: flex;
+  justify-content: end;
+  gap: 15px;
+  padding: 20px;
+}
+.git-link a{
+  color: black;                /* Sets the entire link (and icon) to black */
+  text-decoration: none;
+}
+.git-link i {
+  font-size:25px;             /* Adjust icon size */
+}
+.card-body{
+  text-align: justify;
+}
+
+
+
 .centered-container {
   display: flex;
   flex-direction: column;
@@ -9,10 +98,17 @@ $font-fam: "Aleo", serif;
   align-items: center;
   min-height: 100vh;
   width: 100%;
-  background-color: #ecf0f1;
+  // background-color: #ecf0f1;
   text-align: center;
 }
 .experience-title{
+  font-family: $font-fam;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 21px;
+  font-style: italic;
+}
+.experience-year{
   font-family: $font-fam;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -27,7 +123,7 @@ $font-fam: "Aleo", serif;
   font-style: normal;
 }
 .achivement{
-  font-family: "Aleo", serif;
+  font-family: $font-fam;
   font-optical-sizing: auto;
   font-weight: 400;
   font-size: 19px;
@@ -78,4 +174,44 @@ $font-fam: "Aleo", serif;
   color: #ff7f50 !important; /* Force custom hover text color */
   background-color: #f0f4fd !important; /* Force custom hover background color */
   border-radius: 50px;
+}
+.button-bg {
+  background-color: darkcyan !important;
+  border-radius: 35px !important;
+  font-family: "Aleo",serif !important;
+  font-weight: normal !important;
+  font-size: 18px !important;
+  padding: 10px;
+}
+.exp-border.border-start.border-3{
+  border-color: darkcyan !important;
+}
+/* Button Styling */
+.custom-btn {
+  background-color: darkcyan; /* Dark cyan background */
+  color: white; /* White text */
+  padding: 12px 24px; /* Padding around the content */
+  border-radius: 50px; /* Rounded edges */
+  border: none; /* Remove border */
+  text-decoration: none; /* Remove underline */
+  font-size: 18px; /* Font size */
+  display: inline-block; /* Display only as wide as the content */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover */
+  text-align: center; /* Center text */
+}
+
+/* Hover Effect */
+.custom-btn:hover {
+  background-color: #017374; /* Darker shade of cyan on hover */
+  color: #fff; /* Ensure text stays white */
+}
+
+/* Button container: Center the button at the bottom */
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  padding-bottom: 20px;
+  bottom: 0; /* Ensure it's at the very bottom */
 }

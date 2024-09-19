@@ -11,8 +11,7 @@ const Project = () => {
     return(
         <Container className="p-5">
             <Row>
-                <h1 className="heading p-0"> Projects</h1>
-                <Line />
+                <h1 className="heading p-0 border-bottom border-5 w-auto">Projects</h1>
             </Row>
             <Row xs={1} md={2} lg={2} className="p-5 g-4">
                 {mainBody.projects.map((project) => (
@@ -24,7 +23,7 @@ const Project = () => {
                                 {project.link && project.link !== "#" && (
                                     <div className="git-link w-auto h-auto flex-column d-inline justify-content-end">
                                         <a href={project.link} target="_blank" rel="noopener noreferrer">
-                                            <i className="bi bi-git"></i>
+                                            <i className="bi bi-github"></i>
                                         </a>
                                     </div>
                                 )}

@@ -16,7 +16,7 @@ function Main() {
                     }
                 });
             },
-            { threshold: 0.2 } // 20% of the section needs to be visible
+            { threshold: 0.3 } // 20% of the section needs to be visible
         );
         sections.forEach((section) => observer.observe(section));
         return () => {
@@ -25,10 +25,10 @@ function Main() {
     }, []);
 
     return (
-            <Container fluid className="navbar-container">
-                <Nav className="justify-content-end" variant="pills" activeKey={activeSection}>
+            <Container fluid className="navbar-container start-0">
+                <Nav className="justify-content-end px-4" variant="pills" activeKey={activeSection}>
                 <Nav.Item>
-                    <Nav.Link eventKey="home">{mainBody.home}</Nav.Link>
+                    <Nav.Link href="#home" eventKey="home">{mainBody.home}</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                     <Nav.Link href="#about" eventKey="about">About</Nav.Link>

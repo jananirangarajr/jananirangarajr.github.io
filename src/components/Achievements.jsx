@@ -6,10 +6,9 @@ import Line from "./Line";
 
 function Achievements() {
     return(
-        <Container className="p-5 bg-body-tertiary">
+        <Container className="p-5">
             <Row>
-                <h1 className="heading p-0">Key Achivements</h1>
-                <Line />
+                <h1 className="heading p-0 border-bottom border-5 w-auto">Achivements</h1>
             </Row>
             <Row className="p-4">
                 <ul>
