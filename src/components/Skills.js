@@ -17,7 +17,7 @@ function Skills() {
           <Row xs={1} md={2} lg={4} className="justify-content-center">
     {mainBody.skillCategory.map((skill) => (
         <Col className="mx-4 my-4 d-flex flex-column align-items-stretch h-100">
-            <Card className="border border-success rounded p-3 h-100 d-flex flex-column">
+            <Card className="border shadow rounded p-3 h-100 d-flex flex-column">
                 <Card.Title className="fs-4 text-info-emphasis d-inline p-2 text-center text-decoration-underline">{skill.title}</Card.Title>
                 <Card.Text className="fs-6 fw-medium flex-grow-1">
                     <Row className="justify-content-center">
