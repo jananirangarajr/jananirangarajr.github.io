@@ -6,7 +6,7 @@ import Line from "./Line";
 
 function Achievements() {
     return(
-        <Container className="p-5">
+        <Container className="p-5 text-center mx-auto">
             <Row>
                 <h1 className="heading p-0 border-bottom border-5 w-auto">Achivements</h1>
             </Row>

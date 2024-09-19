@@ -6,10 +6,10 @@ import React from "react";
 
 const Contact = () => {
     return(
-        <Container fluid className="text-light px-5 py-4">
+        <Container fluid className="text-light py-4 text-center mx-auto">
             <Row className="d-flex justify-content-between align-items-center">
                 {/* Left column with padding */}
-                <Col className="col-auto start-0 footer-name" style={{ paddingLeft: '20px' }}>
+                <Col className="col-auto start-0 footer-name" style={{ paddingLeft: '60px' }}>
                     <h1>{mainBody.footer.name}</h1>
                 </Col>
 
@@ -23,7 +23,7 @@ const Contact = () => {
                     </Row>
                 </Col>
 
-                <Col className="col-auto text-end d-flex flex-column align-items-center" style={{ paddingRight: '0' }}>
+                <Col className="col-auto text-end d-flex flex-column align-items-center" style={{ paddingRight: '140px' }}>
                     <div className="text-center">
                         <h6 style={{ padding: '0' }}>Contact Me</h6>
                         <div className="icons-contact">
