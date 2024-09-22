@@ -13,7 +13,7 @@ const Education = () => {
                 <h1 className="heading p-0 border-bottom border-5 w-auto">Education</h1>
             </Row>
             {mainBody.education.map(education => (
-                <Row className="justify-content-center text-center px-5 py-3">
+                <Row key={education.id} className="justify-content-center text-center px-5 py-3">
                     <Row className="py-1">
                         <Col>
                             <h3 className="h3 d-inline w-auto">{education.degree} </h3>

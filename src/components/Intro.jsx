@@ -25,6 +25,7 @@ const Intro = () => {
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         href={ `${icon.url}` }
+                                        key={icon.id}
                                     >
                                         <i className={ `${icon.image}`} />
                                     </a>

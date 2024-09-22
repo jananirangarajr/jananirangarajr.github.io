@@ -17,15 +17,15 @@ const About = () => {
             </Row>
             <Row>
                 <Col>
-                    <Image src={myImage} style={{width:"300px", height: "auto", marginRight:"100px"}} roundedCircle alt="Photo" className="float-start"/>
-                    <p className="intro-body p-5 align-content-center text-center">
+                    <Image src={myImage} style={{width:"300px", height: "auto", marginRight:"30px"}} roundedCircle alt="Photo" className="float-start"/>
+                    <p className="intro-body p-5 align-content-center">
                         {mainBody.about}
                         <br/>
-                        <div className="p-5">
-                            <Button type="button" href={mainBody.resumeLink} className="btn button-bg">Resume</Button>
-                        </div>
                     </p>
                 </Col>
+            </Row>
+            <Row className="justify-content-center mb-5 mt-0">
+                <Button type="button" href={mainBody.resumeLink} className="btn button-bg w-auto">Resume</Button>
             </Row>
             <Row>
                 <Education/>

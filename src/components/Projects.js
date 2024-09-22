@@ -15,7 +15,7 @@ const Project = () => {
             </Row>
             <Row xs={1} md={2} lg={2} className="p-5 g-4">
                 {mainBody.projects.map((project) => (
-                    <Col key={project.idx} className="d-flex">
+                    <Col key={project.id} className="d-flex">
                         {/*<a href={project.link} style={{ textDecoration: "none", color: "inherit" }}>*/}
                         <Card className="card shadow-lg p-3 mb-5 bg-white rounded flex-fill">
                             <Card.Body>
@@ -28,8 +28,7 @@ const Project = () => {
                                     </div>
                                 )}
                                 <Card.Text className="fs-6 fw-medium card-body"> {project.description}</Card.Text>
-                                <Card.Footer>Tech : {project.tech_stack}</Card.Footer>
-
+                                <Card.Footer>Technology : {project.tech_stack}</Card.Footer>
                             </Card.Body>
                         </Card>
                         {/*</a>*/}

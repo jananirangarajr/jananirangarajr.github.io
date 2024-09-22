@@ -31,7 +31,7 @@ const Experience = () => {
             //         </ul>
             //     </Row>
             // </Row>
-                <Row className="border p-5 my-5 mb-2 shadow">
+                <Row key={exp.id} className="border p-5 my-5 mb-2 shadow">
                     <Col className="align-content-center col-6">
                         <Row>
                             <h3 className="h3">{exp.designation}</h3>
@@ -47,8 +47,8 @@ const Experience = () => {
                     </Col>
                     <Col className="p-3 mb-5 border-start border-3 exp-border">
                         <ul className="px-5 py-3 fs-5">
-                                {exp.works.map((work) => (
-                                    <li className="experience">{work}</li>
+                                {exp.works.map((work,index) => (
+                                    <li key={index} className="experience">{work}</li>
                                 ))}
                             </ul>
                     </Col>

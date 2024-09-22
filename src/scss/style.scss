@@ -50,6 +50,7 @@ $font-fam: "Aleo", serif;
   font-weight: 400;
   font-size: 20px;
   font-style: normal;
+  text-align: justify;
 }
 .h3{
   font-family: $font-fam;
@@ -121,14 +122,16 @@ $font-fam: "Aleo", serif;
   font-weight: 400;
   font-size: 19px;
   font-style: normal;
+  text-align: justify;
+  padding-bottom: 10px;
 }
-.achivement{
+.achievement{
   font-family: $font-fam;
   font-optical-sizing: auto;
   font-weight: 400;
   font-size: 19px;
   font-style: normal;
-  text-align: center;
+  text-align: justify;
 }
 .svg-divider {
   display: block;

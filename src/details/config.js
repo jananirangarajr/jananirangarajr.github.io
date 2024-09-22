@@ -12,12 +12,14 @@ const mainBody = {
     home:"\<Janani \/\>",
     "education": [
         {
+            "id":1,
             "university" :"University Of Alabama in Huntsville",
             "degree" : "Master of science in Computer Science",
             "year" : "Jan 2023 - May 2024",
             "location": "Huntsville, AL, USA"
         },
         {
+            "id":2,
             "university" :"Sri Ramakrishna Engineering College",
             "degree" : "Bachelor of Science in Computer Engineering",
             "year" : "Jun 2013 - May 2017",
@@ -26,56 +28,66 @@ const mainBody = {
     ],
     "icons": [
         {
-            "image": "bi bi-github",
-            "url": "https://github.com/jananirangarajr"
-        },
-        {
+            "id":1,
             "image": "bi bi-envelope",
             "url": "mailto:jananir.raju@gmail.com"
         },
         {
+            "id":2,
             "image": "bi bi-linkedin",
             "url": "https://www.linkedin.com/in/jananirr/"
+        },
+        {
+            "id":3,
+            "image": "bi bi-github",
+            "url": "https://github.com/jananirangarajr"
         }
     ],
     "projects" : [
         {
-            "idx": 1,
+            "id": 1,
             "title": "Cloud-Based E-Learning Platform Using Service Oriented Architecture",
             "tech_stack" :"Docker, REST API, Python, React, NO SQL, Cloud Firestore, Firebase" ,
             "description": "A cloud-based SaaS application that enables users to enroll in courses for technical skill learning. Built on a modular architecture with user, course, and e-learning services, it offers seamless scalability and integration, providing a smooth experience for both learners and administrators.",
             "link": "https://github.com/jananirangarajr/Elearn_platform"
         },
         {
-            "idx": 2,
+            "id": 2,
             "title": "Distributed Automobile Shop Management System",
             "tech_stack" :"React, Python, Docker, REST APIs, MongoDB, SOAP" ,
             "description": "A client-server application that enables automobile shops to track vehicles across multiple locations efficiently. Leveraging the FARM stack (FastAPI, React, MongoDB), it supports both REST and SOAP web services, providing flexible communication methods and real-time data management to optimize operations.",
             "link": "https://github.com/jananirangarajr/farm-stack-Automobile"
         },
         {
-            "idx": 5,
+            "id": 7,
+            "title":"Personal Portfolio Website",
+            "tech_stack":"HTML, SCSS, JavaScript, React, Bootstrap, React Bootstap",
+            "description": "Designed and developed a fully responsive personal portfolio website using React, Bootstrap, React-Bootstrap, npm, SCSS, CSS, and HTML. The website showcases professional projects, experience, and skills in a clean, user-friendly interface. Implemented dynamic components, smooth navigation, and minimalistic design principles to deliver a seamless user experience across all devices. Additionally, integrated various social media and contact options, enabling easy communication.",
+            "link": "https://github.com/jananirangarajr/jananirangarajr.github.io"
+        },
+        {
+            "id": 5,
             "title": "Dynamic Database Table Construction Framework",
             "tech_stack" :"Java, Core Java , Java Database Connectivity (JDBC) , JSON" ,
             "description": "A dynamic framework for creating database tables and constraints based on a user-defined JSON template. It automates the execution of DDL commands, simplifying the database setup process and providing flexibility in schema configuration.",
             "link": "https://github.com/jananirangarajr/DBManager"
         },
         {
-            "idx": 6,
+            "id": 6,
             "title":"Dynamic Memory Allocation System Using Free List and First Fit Strategy",
             "tech_stack" :"C, Operating Systems, Bash, Linux, Makefile",
             "description": "A dynamic memory allocation system implemented using the free list approach and First Fit strategy to efficiently manage memory blocks in operating systems.",
             "link": "https://github.com/jananirangarajr/Dynamic-Malloc-Free-Memory"
         },
         {
-            "idx": 3,
+            "id": 3,
             "title": "Centralized Space Reservation System",
             "tech_stack" :"java, Struts 2, JSP, Apache Tomcat, HTML, CSS, Java Script" ,
             "description": "An user-friendly centralized application that elegantly bridges the gap between availability and user requirements for space reservation in various events.",
             "link": "#"
         },
         {
-            "idx": 4,
+            "id": 4,
             "title": "IoT-Based Appliance Cost Estimation System",
             "tech_stack" :"Embedded C , java, Android, Arduino" ,
             "description": "An innovative IoT application that estimates the real-time running cost of electrical appliances. It monitors appliance usage, displays statistics, and tracks historical data, providing users with actionable insights for better energy management through a user-friendly Android interface.",
@@ -84,6 +96,7 @@ const mainBody = {
     ],
     "experience" : [
         {
+            "id":1,
             "company": "ITSC - University Of Alabama In Huntsville" ,
             "designation": "Computer Scientist II",
             "year" : "Jun 2024 - Present" ,
@@ -94,6 +107,7 @@ const mainBody = {
             ]
         },
         {
+            "id":2,
             "company": "ITSC - University Of Alabama In Huntsville" ,
             "designation": "Graduate Research Assistant",
             "year" : "Jan 2023 - May 2024" ,
@@ -104,6 +118,7 @@ const mainBody = {
             ]
         },
         {
+            "id":3,
             "company": "PayPal Inc" ,
             "designation": "Software Developement Engineer II",
             "year" : "Aug 2021 - Dec 2022" ,
@@ -116,6 +131,7 @@ const mainBody = {
             ]
         },
         {
+            "id":4,
             "company": "Zoho Corporation" ,
             "designation": "Member Technical Staff",
             "year" : "May 2017 - Aug 2021" ,
@@ -176,11 +192,12 @@ const mainBody = {
         "Played a pivotal role in enhancing NASA's AutoKam software used in the Sally Ride EarthKam program, benefiting over 600,000 students across 80 countries. Designed and integrated REST API support for orbit propagation, enabling real-time satellite image upload and download based on student requests.",
         "Developed and implemented advanced features in CIROH (Cooperative Institute for Research Operations in Hydrology), enhancing product consistency and usability. Leveraged Python, AWS, and React to improve satellite image resolution for the Global Precipitation Measurement (GPM) program, significantly increasing forecast precision.",
         "Contributed to PayPal’s Risk and Fraud Management platform, serving 427 million users. Reduced dispute resolution time by collaborating with cross-functional teams to develop efficient features, such as escalations and cancellations, improving process efficiency by 30%.",
-        "Improved the performance of Zoho’s ITSM product AssetExplorer, boosting asset management functionality by 20%. Additionally, integrated advanced analytics, leading to an increase in product efficiency and generating $1 million in additional revenue.",
+        "Improved the performance of Zoho’s ITSM product AssetExplorer, boosting asset management functionality by 20%. Additionally, integrated Zoho Reports, leading to an increase in product data efficiency.",
         "Demonstrated expertise in securing web applications by identifying and resolving over 70 XSS and CSRF vulnerabilities, leading to a significant reduction in security risks across Zoho's products."
     ],
     "skillCategory":[
         {
+            "id":1,
             "title": "Languages",
             "links": [
                 "https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white",
@@ -191,6 +208,7 @@ const mainBody = {
             ]
         },
         {
+            "id":2,
             "title": "Frontend",
             "links": [
                 "https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white",
@@ -202,6 +220,7 @@ const mainBody = {
             ]
         },
         {
+            "id":3,
             "title": "Backend Technologies",
             "links": [
                 "https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white",
@@ -212,6 +231,7 @@ const mainBody = {
             ]
         },
         {
+            "id":4,
             "title": "Cloud Technologies",
             "links": [
                 "https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white",
@@ -220,6 +240,7 @@ const mainBody = {
             ]
         },
         {
+            "id":5,
             "title": "DevOps Tools",
             "links": [
                 "https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white",
@@ -231,6 +252,7 @@ const mainBody = {
             ]
         },
         {
+            "id":6,
             "title": "Database",
             "links": [
                 "https://img.shields.io/badge/Amazon%20DynamoDB-4053D6?style=for-the-badge&logo=Amazon%20DynamoDB&logoColor=white",
@@ -243,6 +265,7 @@ const mainBody = {
             ]
         },
         {
+            "id":7,
             "title": "Package Managers & Build Tools",
             "links": [
                 "https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white",
@@ -250,6 +273,7 @@ const mainBody = {
             ]
         },
         {
+            "id":8,
             "title": "Operating System",
             "links": [
                 "https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black",
@@ -258,6 +282,7 @@ const mainBody = {
             ]
         },
         {
+            "id":9,
             "title": "Collaboration & API Tools",
             "links": [
                 "https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white",
