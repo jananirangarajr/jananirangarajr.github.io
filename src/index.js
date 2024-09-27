@@ -4,6 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import ReactGA from "react-ga4";
+
+ReactGA.initialize("G-PTT07RSW15");
+ReactGA.send("pageview");
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
