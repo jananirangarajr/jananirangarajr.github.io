@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from "react";
-import {Nav, Navbar} from "react-bootstrap";
+import {Nav} from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 import {mainBody} from "../details/config";
 
@@ -34,17 +34,21 @@ function Main() {
                     <Nav.Link href="#about" eventKey="about">About</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link href="#experience" eventKey="experience">Experience</Nav.Link>
+                    <Nav.Link href="#leadership" eventKey="leadership">Leadership</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link href="#projects" eventKey="projects">Projects</Nav.Link>
+                    <Nav.Link href="#experience" eventKey="experience">Experience</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                     <Nav.Link href="#skills" eventKey="skills">Skills</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link href="#achievements" eventKey="achievements">Achievements</Nav.Link>
+                    <Nav.Link href="#cert" eventKey="cert">Certifications</Nav.Link>
                 </Nav.Item>
+                <Nav.Item>
+                    <Nav.Link href="#projects" eventKey="projects">Projects</Nav.Link>
+                </Nav.Item>
+
             </Nav>
         </Container>
     );

@@ -2,7 +2,6 @@ import React from "react";
 import '../scss/style.scss';
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 import Typist from 'react-typist-component';
 import {mainBody} from "../details/config";
 
@@ -15,9 +14,12 @@ const Intro = () => {
                         <Row>
                             <h1 className="intro">{mainBody.firstName} {mainBody.lastName}</h1>
                         </Row>
-                            <Row className="tagline">
-                                <h3>{mainBody.devDesc}</h3>
-                            </Row>
+                    <Row className="tagline text-info-emphasis">
+                        <h2>{mainBody.devRole}</h2>
+                    </Row>
+                    <Row className="tagline">
+                        <h5>{mainBody.devDesc}</h5>
+                    </Row>
                     <Row>
                             <div className="icons-social">
                                 {mainBody.icons.map(icon => (

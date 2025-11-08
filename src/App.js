@@ -4,13 +4,13 @@ import About from "./components/About";
 import React from "react";
 import Main from "./components/Main";
 import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 import Project from "./components/Projects";
 import Experience from "./components/Experience";
 import Skills from "./components/Skills";
-import Achievements from "./components/Achievements";
+import Leadership from "./components/Leadership";
 import Contact from "./components/Contact";
+import Certifications from "./components/Certifications";
+import LastUpdatedWatermark from "./components/LastUpdated";
 
 function App() {
   return (
@@ -29,13 +29,13 @@ function App() {
             </section>
         </Container>
         <Container fluid className="bg-light-subtle">
-            <section id="experience" style={{minHeight: "auto"}}>
-                <Experience />
+            <section id="leadership" style={{ minHeight: "auto" }}>
+                <Leadership />
             </section>
         </Container>
         <Container fluid className="bg-body-tertiary">
-            <section id="projects" style={{ minHeight: "auto" }}>
-                <Project />
+            <section id="experience" style={{minHeight: "auto"}}>
+                <Experience />
             </section>
         </Container>
         <Container fluid className="bg-light-subtle">
@@ -44,13 +44,19 @@ function App() {
             </section>
         </Container>
         <Container fluid className="bg-body-tertiary">
-            <section id="achievements" style={{ minHeight: "auto" }}>
-                <Achievements />
+            <section id="cert" style={{ minHeight: "auto"}}>
+                <Certifications />
+            </section>
+        </Container>
+        <Container fluid className="bg-light-subtle">
+            <section id="projects" style={{ minHeight: "auto" }}>
+                <Project />
             </section>
         </Container>
         <Container fluid className="footer">
             <Contact/>
         </Container>
+        <LastUpdatedWatermark />
     </>
   );
 }

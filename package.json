@@ -16,7 +16,8 @@
     "react-scripts": "^5.0.1",
     "react-typist-component": "^1.0.3",
     "sass": "^1.54.3",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "lucide-react": "^0.x"
   },
   "scripts": {
     "start": "react-scripts start",

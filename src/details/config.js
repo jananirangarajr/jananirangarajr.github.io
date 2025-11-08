@@ -3,12 +3,19 @@ const mainBody = {
     firstName: "Janani",
     middleName: "",
     lastName: "Rangaraj",
-    message: " Passionate about changing the world with technology. ",
-    passion: "Loves to work in Distributed Systems.",
-    devDesc: "Software Engineer | Full Stack Developer",
+    message: "Building reliable, high performance distributed systems and leading teams to deliver impactful, data-driven solutions.",
+    passion: "Passionate about changing the world with technology.",
+    devRole: "Senior Software Engineer | Full Stack Developer",
+    devDesc: "Distributed Systems | Cloud & API Architecture | Scalable Platforms",
     introMsg:"Hello, I am",
-    about:"I am a highly motivated and results-driven software engineer with over 7 years of experience specializing in backend and full-stack development, cloud-native platforms, and distributed systems. My expertise lies in designing scalable architectures, optimizing performance, and delivering robust solutions for enterprise applications. With a strong focus on collaboration and problem-solving, I work effectively across cross-functional teams to build innovative products that align with business objectives.",
-    resumeLink:"https://docs.google.com/document/u/0/export?format=pdf&id=1e62ZV9Scu05FL-5rsqVD6aOQUCt2thqc8cbz8SzSK7Q",
+    about:"I’m a Senior Software Engineer with 8+ years of experience designing and developing large scale distributed systems and cloud native applications.\n" +
+        "My expertise spans Java, Python, Spring Boot, AWS, and microservices, with strong foundations in API architecture, data modeling, and system design.\n" +
+        "\n" +
+        "I thrive on solving complex backend challenges, improving system scalability, and mentoring teams to write clean, efficient, and maintainable code.\n" +
+        "I’ve contributed to mission critical platforms across NASA, PayPal, and Zoho improving reliability, performance, and developer productivity.\n" +
+        "\n" +
+        "Passionate about building intelligent, observable, and secure cloud systems, and continuously learning in the fields of AI, backend automation, and distributed computing.",
+    resumeLink:"https://docs.google.com/document/u/0/export?format=pdf&id=1e62ZV9Scu05FL",
     home:"\<Janani \/\>",
     "education": [
         {
@@ -97,13 +104,20 @@ const mainBody = {
     "experience" : [
         {
             "id":1,
-            "company": "ITSC - University Of Alabama In Huntsville" ,
+            "company": "NASA - GHRC DAAC, ITSC" ,
             "designation": "Computer Scientist II",
             "year" : "Jun 2024 - Present" ,
             "location": "Huntsville, AL",
             "works": [
-                "Enhanced AutoKam's robustness, a backend Java SWT application for EarthKam Sally Ride, serving 600,000 students in 80 countries, by designing and integrating REST API support for orbit propagations and facilitating the upload/download of satellite images based on students requests.",
-                "Developing a user-friendly React application, replacing the Java SWT application, to provide easier access for NASA technicians, enhancing efficiency and usability by 100%.\n"
+                "Designed and developed scalable REST APIs using Java, Spring Boot, Hibernate, and PostgreSQL for global satellite data access",
+                "Re-architected legacy systems for performance, maintainability, and cloud scalability in a fast-paced Agile environment.",
+                "Built a real-time wetlands visualization tool using Python FastAPI & WebSockets, enabling instant scientific data analysis",
+                "Automated deployments with Docker, Terraform, and AWS EC2, ensuring zero-downtime rollouts.",
+                "Evaluated and implemented async design patterns (message queues, backpressure) to enhance scalability and reliability.",
+                "Implemented AWS SQS notification pipelines for file infection alerts, improving operational security.",
+                "Led the design of a user notification preference system spanning UI, backend APIs, and database schema.",
+                "Built reporting dashboards for cost and anomaly tracking, empowering data-driven decision-making.",
+                "Mentored junior engineers on design best practices, testing, and CI/CD automation, ensuring adherence to enterprise standards."
             ]
         },
         {
@@ -113,8 +127,9 @@ const mainBody = {
             "year" : "Jan 2023 - May 2024" ,
             "location": "Huntsville, AL",
             "works": [
-                "Developed key enhancements and new functionalities in CIROH (Cooperative Institute for Research Operations in Hydrology) using Python, AWS, React, Cesium, elevating product consistency",
-                "Improved the resolution of GPM (Global Precipitation Measurement) data by implementing a Neural Network model on AWS for CIROH, increasing satellite image resolution from 5 km to 1 km, leading to improved precision in weather forecasts."
+                "Enhanced a cloud-native Python platform using AWS Lambda, API Gateway, and DynamoDB to improve GPM data access",
+                "Integrated ML (CNN) models in AWS for hydrology prediction, improving precipitation accuracy for research operations.",
+                "Delivered CI/CD-ready solutions improving consistency, user experience, and reliability of research application"
             ]
         },
         {
@@ -126,8 +141,10 @@ const mainBody = {
             "works": [
                 "Contributed to a highly scalable and high-volume business with 427 million users, processing 25 billion transactions throughout the year utilizing a tech stack of MySQL, Microservices, Java, CI/CD, Spring Boot, Splunk, Jenkins, Git and Message Queue.",
                 "Collaborated with the Risk and Fraud Management team to build a dispute handling platform, improving efficiency and significantly reducing resolution time between 14 days and 30 days.",
-                "Developed features to escalate and cancel disputes, resulting in a reduction in backlog.",
-                "Built an action item list for buyers and sellers, resulting in an enhanced dispute resolution process based on their actions."
+                "Applied asynchronous messaging via Kafka for near real-time dispute notifications, enhancing system responsiveness.",
+                "Practiced TDD with JUnit and Mockito, improving code reliability and reducing QA cycles",
+                "Diagnosed and resolved production bottlenecks with Splunk and performance profiling tools, improving latency and throughput",
+                "Partnered cross-functionally to design and deploy highly reliable and secure financial transaction services"
             ]
         },
         {
@@ -136,11 +153,11 @@ const mainBody = {
             "designation": "Member Technical Staff",
             "year" : "May 2017 - Aug 2021" ,
             "works": [
-                "Worked in AssetExplorer & ServiceDeskPlus product development, an on-premise J2EE ITSM application serving over 100,000 organizations across countries with a 100 million revenue every year.",
-                "Enhanced Asset Management functionality by 20% through data model optimizations and RESTful integration involving Postgresql, Java, JavaScript, Maven tech stack resulting in advanced performance.",
-                "Successfully integrated Advanced Analytics Plus and Zoho Reports, resulting in an increase in product data analysis efficiency and 1,000,000 additional revenue.",
-                "Built advanced filters for personalized user views, increasing resource retrieval speed and boosting user experience by 100%.",
-                "Identified and resolved more than 70 XSS (Cross-Site Scripting) and CSRF(Cross-Site Request Forgery) vulnerabilities, resulting in a significant decrease in cyber security issues"
+                "Developed and maintained large-scale ITSM SaaS products (AssetExplorer, ServiceDeskPlus) serving 100K+ customers.",
+                "Designed RESTful APIs and optimized SQL queries to improve asset management performance by 20%.",
+                "Refactored modules using object-oriented principles and applied asynchronous patterns for better scalability.",
+                "Identified and resolved more than 70 XSS (Cross-Site Scripting) and CSRF(Cross-Site Request Forgery) vulnerabilities, resulting in a significant decrease in cyber security issues",
+                "Mentored peers and enforced code review standards for consistent quality and maintainability"
             ]
         }
     ],
@@ -189,11 +206,13 @@ const mainBody = {
         "https://img.shields.io/badge/SonarQube-black?style=for-the-badge&logo=sonarqube&logoColor=4E9BCD"
     ],
     "achivements":[
-        "Played a pivotal role in enhancing NASA's AutoKam software used in the Sally Ride EarthKam program, benefiting over 600,000 students across 80 countries. Designed and integrated REST API support for orbit propagation, enabling real-time satellite image upload and download based on student requests.",
-        "Developed and implemented advanced features in CIROH (Cooperative Institute for Research Operations in Hydrology), enhancing product consistency and usability. Leveraged Python, AWS, and React to improve satellite image resolution for the Global Precipitation Measurement (GPM) program, significantly increasing forecast precision.",
-        "Contributed to PayPal’s Risk and Fraud Management platform, serving 427 million users. Reduced dispute resolution time by collaborating with cross-functional teams to develop efficient features, such as escalations and cancellations, improving process efficiency by 30%.",
-        "Improved the performance of Zoho’s ITSM product AssetExplorer, boosting asset management functionality by 20%. Additionally, integrated Zoho Reports, leading to an increase in product data efficiency.",
-        "Demonstrated expertise in securing web applications by identifying and resolving over 70 XSS and CSRF vulnerabilities, leading to a significant reduction in security risks across Zoho's products."
+        "Architectural Ownership: Designed and re-architected distributed, event-driven systems in NASA’s cloud infrastructure, driving scalability, maintainability, and cost efficiency across multiple services.",
+        "Cross Functional Influence: Partnered with data scientists, DevOps, and product teams to define technical direction for ingestion pipelines, API contracts, and data validation frameworks.",
+        "Decision Making: Led design reviews and trade-off discussions for technologies such as REST vs. gRPC, DynamoDB vs. RDS, and event-driven vs. request-response patterns, ensuring system designs aligned with latency and reliability goals.",
+        "Mentorship: Coached engineers on code quality, observability, and performance optimization, fostering a culture of peer review and data-driven debugging.",
+        "Scalability Initiatives: Guided infrastructure scaling using AWS Lambda, Terraform, and Kubernetes improving system throughput and reducing deployment overhead.",
+        "Operational Excellence: Advocated on-call best practices and observability standards using Splunk and CloudWatch, improving incident resolution time and quality.",
+        "Innovation & R&D: Collaborated with NASA researchers to integrate AI based models into hydrology and precipitation pipelines, bridging engineering and data science domains."
     ],
     "skillCategory":[
         {
@@ -297,7 +316,23 @@ const mainBody = {
         "mainMsg": "Let's Work Together",
         "msg": "Feel free to reach out to me for collaborations or job opportunities.",
         "copyrights": "2024 Janani Rangaraj. All rights reserved."
-    }
+    },
+    "certifications": [
+        {
+            "id": 1,
+            "title" : "OCI - AI Foundations 2025",
+            "link": "https://catalog-education.oracle.com/ords/certview/sharebadge?id=74B3EB56D692655BAC8FD94DECFE6CE73DB04E5F5D6641B70AEF345C8545911A",
+            "description":
+                "Gained foundational knowledge in Artificial Intelligence concepts including Machine Learning, Deep Learning, and Natural Language Processing. Learned how to design AI-driven cloud solutions using Oracle Cloud Infrastructure (OCI) services.",
+        },
+        {
+            "id" : 2,
+            "title": "OCI - Generative AI 2025",
+            "link": "https://catalog-education.oracle.com/ords/certview/sharebadge?id=034B6F7D6D7EF8190A98DE7DDEC3B696D7E8302429B6C17094B230AD63F49B2E",
+            "description":
+            "Developed understanding of Generative AI principles and use cases. Learned how to build, deploy, and fine-tune Large Language Models (LLMs) on OCI using tools like OCI Data Science and Generative AI APIs."
+        }
+    ]
 };
 
 export {mainBody};

@@ -5,8 +5,6 @@ import {mainBody} from "../details/config";
 import Image from 'react-bootstrap/Image';
 import myImage from '../assets/IMG_4623-sm.JPG';
 import Education from "./Education";
-import Line from "./Line";
-import {Button} from "react-bootstrap";
 const About = () => {
     return(
         <>
@@ -18,15 +16,15 @@ const About = () => {
             <Row>
                 <Col>
                     <Image src={myImage} style={{width:"300px", height: "auto", marginRight:"30px"}} roundedCircle alt="Photo" className="float-start"/>
-                    <p className="intro-body p-5 align-content-center">
+                    <p className="intro-body p-5 align-content-center" style={{ whiteSpace: "pre-line" }}>
                         {mainBody.about}
                         <br/>
                     </p>
                 </Col>
             </Row>
-            <Row className="justify-content-center mb-5 mt-0">
-                <Button type="button" href={mainBody.resumeLink} className="btn button-bg w-auto">Resume</Button>
-            </Row>
+            {/*<Row className="justify-content-center mb-5 mt-0">*/}
+            {/*    <Button type="button" href={mainBody.resumeLink} className="btn button-bg w-auto">Resume</Button>*/}
+            {/*</Row>*/}
             <Row>
                 <Education/>
             </Row>
