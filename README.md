@@ -43,6 +43,13 @@ cd repo-name
 
 ### 2. Install dependencies
 
+* Ensure the `homepage` field in `package.json` is set to your GitHub Pages URL:
+
+```json
+"homepage": "https://username.github.io/repo-name"
+```
+
+* Install dependencies
 ```bash
 npm install
 ```
@@ -105,7 +112,7 @@ Deploy to **Netlify**, **Vercel**, or any static hosting service.
 
 ---
 
-## ⚡ GitHub Actions Auto Deployment
+## GitHub Actions Auto Deployment
 
 This portfolio can be automatically deployed on every push to `main` using GitHub Actions. Example workflow (`.github/workflows/deploy.yml`):
 
@@ -114,6 +121,29 @@ Add a badge to show workflow status:
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/jananirangarajr/jananirangarajr.github.io/deploy.yml?branch=main)
 
 ---
+
+## Google Analytics (Optional)
+
+You can integrate **Google Analytics** to track your site traffic:
+
+1. Go to [Google Analytics](https://analytics.google.com/) and create a new property for your site.
+2. Get your **Measurement ID** (starts with `G-XXXXXXX`).
+3. In your React app, install the analytics package if needed:
+
+```bash
+npm install react-ga4
+```
+
+4. Initialize Google Analytics in your app, e.g., in `src/index.js` or `App.js`:
+
+```javascript
+import ReactGA from "react-ga4";
+
+ReactGA.initialize("G-XXXXXXX"); // replace with your Measurement ID
+ReactGA.send("pageview");
+```
+
+5. Push your changes to `main` — the workflow will rebuild and deploy the app with analytics enabled.
 
 ## Customization
 
