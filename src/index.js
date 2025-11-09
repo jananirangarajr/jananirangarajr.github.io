@@ -6,8 +6,11 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ReactGA from "react-ga4";
 
-ReactGA.initialize("G-PTT07RSW15");
-ReactGA.send("pageview");
+const gaId = process.env.REACT_APP_GA_ID;
+if (gaId) {
+    ReactGA.initialize(gaId);
+    ReactGA.send("pageview");
+}
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
