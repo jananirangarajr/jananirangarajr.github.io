@@ -11,7 +11,7 @@ A **personal portfolio website** built with **React**. This project is designed 
 
 ## Live Demo
 
-Check out the live site: [https://jananirangarajr.github.io/#home](https://username.github.io/repo-name)
+Check out the live site: [https://jananirangarajr.github.io/#home]([https://username.github.io/repo-name](https://jananirangarajr.github.io/#home))
 
 ---
 
