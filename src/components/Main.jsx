@@ -7,7 +7,7 @@ function Main() {
     const [activeSection, setActiveSection] = useState('home');
 
     useEffect(() => {
-        const sections = document.querySelectorAll("section");
+        const sections = document.querySelectorAll("section[id]");
         const observer = new IntersectionObserver(
             (entries) => {
                 entries.forEach((entry) => {
@@ -16,7 +16,8 @@ function Main() {
                     }
                 });
             },
-            { threshold: 0.3 } // 20% of the section needs to be visible
+            { threshold: 0.15,
+                rootMargin: "-80px 0px -20% 0px"} // 20% of the section needs to be visible
         );
         sections.forEach((section) => observer.observe(section));
         return () => {

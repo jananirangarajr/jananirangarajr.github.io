@@ -22,8 +22,9 @@ function Leadership() {
 
                         return (
                             <Col key={index} xs={12} className="mb-3">
-                                <li className="achievement fw-medium lh-base text-info-emphasis">
-                                    <strong style={{ color: "darkcyan" }}>{boldPart}</strong>:{remaining}
+                                <li className="achievement fw-medium lh-base">
+                                    <strong className="text-info-emphasis" style={{ color: "darkcyan" }}>{boldPart}</strong>:
+                                    <p>{remaining}</p>
                                 </li>
                             </Col>
                         );

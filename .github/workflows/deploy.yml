@@ -8,8 +8,6 @@ on:
     paths-ignore:
       - 'README.md'
       - '*.md'
-      - '.github/**'
-
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
